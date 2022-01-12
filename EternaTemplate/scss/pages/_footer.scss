@@ -1,0 +1,230 @@
+#newsletter {
+    background-color: #404040;
+    height: 181px;
+
+    .container {
+        .row {
+            padding: 63px 0px;
+
+            .newsLeft {
+                h1 {
+                    color: white;
+                    font-weight: normal;
+                    font-size: 24px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    color: white;
+
+                }
+            }
+
+            .newsRight {
+                .input-group {
+                    form {
+                        position: relative;
+
+                        .form-outline {
+
+                            input {
+                                width: 636px;
+                                height: 49px;
+                                border-radius: 40px;
+                                font-size: 20px;
+                            }
+
+                        }
+
+                        .searchBtn {
+                            button {
+                                font-weight: 500;
+                                position: absolute;
+                                top: 3px;
+                                right: 5px;
+                                background-color: #e96b56;
+                                border-radius: 20px;
+                                width: 133px;
+                                height: 43px;
+                                color: white;
+                                transition: all 0.3s;
+                            }
+                        }
+
+                        .searchBtn:hover {
+                            button {
+                                background-color: #E6573F;
+                                color: white;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    background-color: #3B3B3B;
+    height: 341.9px;
+
+    .container {
+        .row {
+            padding: 63px 0px;
+
+            .bir {
+                h6 {
+                    color: white;
+                }
+
+                p {
+                    transition: all 0.3s;
+                    margin-bottom: 10px;
+
+                    i {
+                        color: #e96b56;
+                        font-size: 18px;
+                        padding-right: 4px;
+                    }
+
+                    a {
+                        line-height: 1;
+                        transition: all 0.3s;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+
+                p:hover {
+
+                    a {
+                        color: #E6573F;
+                    }
+                }
+            }
+
+            .iki {
+                h6 {
+                    color: white;
+                }
+
+                p {
+                    transition: all 0.4s;
+                    margin-bottom: 10px;
+
+                    i {
+                        color: #e96b56;
+                        font-size: 18px;
+                        padding-right: 4px;
+                    }
+
+                    a {
+                        transition: all 0.4s;
+
+                        line-height: 1;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+
+                p:hover {
+
+                    a {
+                        color: #E6573F;
+                    }
+                }
+            }
+
+            .uc {
+                h6 {
+                    color: white;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    transition: all 0.3s;
+                    margin-bottom: 10px;
+                    color: white;
+
+                }
+
+                .infoStreet {
+                    padding-right: 152px;
+                    line-height: 26px;
+                    margin-bottom: 25px;
+                }
+            }
+
+            .dord {
+                h6 {
+                    color: white;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    line-height: 26px;
+                    transition: all 0.3s;
+                    margin-bottom: 10px;
+                    color: white;
+
+                }
+
+                .footerIcon {
+                    ul {
+                        li {
+                            text-decoration: none;
+
+                            a {
+                                width: 36px;
+                                height: 36px;
+                                text-decoration: none;
+
+                                i {
+                                    color: white;
+                                    background-color: #545454;
+                                    padding: 10px;
+                                    border-radius: 50%;
+                                    transition: all 0.3s;
+                                }
+                            }
+
+                            a:hover {
+                                i {
+                                    background-color: #E6573F;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#copyright {
+    background-color: #404040;
+    height: 100px;
+
+    .container {
+        .row {
+            .copyRightp {
+                margin-top: 40px;
+
+                p {
+                    color: white;
+                    margin-bottom: 5px;
+                }
+            }
+
+            .credits {
+                color: white;
+                a{
+                    text-decoration: none;
+                    color: #E6573F;
+                }
+            }
+        }
+    }
+}

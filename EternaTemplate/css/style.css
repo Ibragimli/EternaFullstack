@@ -1,0 +1,418 @@
+#newsletter {
+  background-color: #404040;
+  height: 181px;
+}
+
+#newsletter .container .row {
+  padding: 63px 0px;
+}
+
+#newsletter .container .row .newsLeft h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#newsletter .container .row .newsLeft p {
+  color: white;
+}
+
+#newsletter .container .row .newsRight .input-group form {
+  position: relative;
+}
+
+#newsletter .container .row .newsRight .input-group form .form-outline input {
+  width: 636px;
+  height: 49px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+#newsletter .container .row .newsRight .input-group form .searchBtn button {
+  font-weight: 500;
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  background-color: #e96b56;
+  border-radius: 20px;
+  width: 133px;
+  height: 43px;
+  color: white;
+  transition: all 0.3s;
+}
+
+#newsletter .container .row .newsRight .input-group form .searchBtn:hover button {
+  background-color: #E6573F;
+  color: white;
+}
+
+#footer {
+  background-color: #3B3B3B;
+  height: 341.9px;
+}
+
+#footer .container .row {
+  padding: 63px 0px;
+}
+
+#footer .container .row .bir h6 {
+  color: white;
+}
+
+#footer .container .row .bir p {
+  transition: all 0.3s;
+  margin-bottom: 10px;
+}
+
+#footer .container .row .bir p i {
+  color: #e96b56;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+#footer .container .row .bir p a {
+  line-height: 1;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: white;
+}
+
+#footer .container .row .bir p:hover a {
+  color: #E6573F;
+}
+
+#footer .container .row .iki h6 {
+  color: white;
+}
+
+#footer .container .row .iki p {
+  transition: all 0.4s;
+  margin-bottom: 10px;
+}
+
+#footer .container .row .iki p i {
+  color: #e96b56;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+#footer .container .row .iki p a {
+  transition: all 0.4s;
+  line-height: 1;
+  text-decoration: none;
+  color: white;
+}
+
+#footer .container .row .iki p:hover a {
+  color: #E6573F;
+}
+
+#footer .container .row .uc h6 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#footer .container .row .uc p {
+  transition: all 0.3s;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#footer .container .row .uc .infoStreet {
+  padding-right: 152px;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+#footer .container .row .dord h6 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#footer .container .row .dord p {
+  line-height: 26px;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#footer .container .row .dord .footerIcon ul li {
+  text-decoration: none;
+}
+
+#footer .container .row .dord .footerIcon ul li a {
+  width: 36px;
+  height: 36px;
+  text-decoration: none;
+}
+
+#footer .container .row .dord .footerIcon ul li a i {
+  color: white;
+  background-color: #545454;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+#footer .container .row .dord .footerIcon ul li a:hover i {
+  background-color: #E6573F;
+}
+
+#copyright {
+  background-color: #404040;
+  height: 100px;
+}
+
+#copyright .container .row .copyRightp {
+  margin-top: 40px;
+}
+
+#copyright .container .row .copyRightp p {
+  color: white;
+  margin-bottom: 5px;
+}
+
+#copyright .container .row .credits {
+  color: white;
+}
+
+#copyright .container .row .credits a {
+  text-decoration: none;
+  color: #E6573F;
+}
+
+#headerUp {
+  background-color: #545454;
+  height: 41px;
+}
+
+#headerUp .container .row ul li {
+  margin-top: 11px;
+}
+
+#headerUp .container .row ul li i {
+  cursor: pointer;
+  margin-right: 15px;
+  color: #E96B56;
+  font-size: 14px;
+  transition: all 0.4s ease;
+}
+
+#headerUp .container .row ul li i p {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+#headerUp .container .row ul li i:hover {
+  transition: all 0.4s ease;
+}
+
+#headerUp .container .row ul li i:hover p {
+  color: #E96B56;
+}
+
+#headerUp .container .row ul .iconLi {
+  margin-top: 4px;
+}
+
+#headerUp .container .row ul .iconLi ul li i {
+  color: #bababa;
+}
+
+#headerUp .container .row ul .iconLi ul li i:hover {
+  color: white;
+}
+
+#headerDown .container .row nav .navbar-brand {
+  font-size: 26px;
+  padding: 0 0 0 8px;
+  margin: 11px 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  border-left: 8px solid #e96b56;
+  color: #545454;
+}
+
+#headerDown .container .row nav #navbarNav .navbar-nav li {
+  margin-left: 10px;
+}
+
+#headerDown .container .row nav #navbarNav .navbar-nav li .active {
+  color: #E96B56;
+}
+
+#breadcrumbs {
+  margin-bottom: 50px;
+  background-color: #F7F7F7;
+  height: 109px;
+}
+
+#breadcrumbs .container .row ul {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#breadcrumbs .container .row ul li {
+  color: #212529;
+  margin-right: 10px;
+}
+
+#breadcrumbs .container .row ul .active {
+  color: #E96B56;
+}
+
+#breadcrumbs .container .row ul p {
+  margin-right: 10px;
+}
+
+#breadcrumbs .container .row h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #545454;
+}
+
+#services {
+  margin-bottom: 50px;
+}
+
+#services .container .row .box {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+  width: 416px;
+  height: 337.8px;
+  border: 1px solid #ededed;
+  padding: 80px 20px;
+}
+
+#services .container .row .box .box-icon {
+  position: relative;
+  margin-bottom: 25px;
+  display: inline-block;
+  padding: 18px;
+  background-color: #E96B56;
+  border-radius: 5px;
+}
+
+#services .container .row .box .box-icon i {
+  color: white;
+  font-size: 28px;
+}
+
+#services .container .row .box .box-icon::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  background-color: #fbe2dd;
+  border-radius: 5px;
+}
+
+#services .container .row .box h1 {
+  margin-bottom: 20px;
+}
+
+#services .container .row .box h1 a {
+  text-decoration: none;
+  color: #545454;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#services .container .row .box p {
+  line-height: 24px;
+  font-size: 14px;
+  color: #444;
+}
+
+#services .container .row .box:hover {
+  background-color: #E96B56;
+  z-index: 0;
+}
+
+#services .container .row .box:hover .box-icon {
+  background-color: #fff;
+}
+
+#services .container .row .box:hover .box-icon i {
+  color: #E96B56;
+}
+
+#services .container .row .box:hover .box-icon::before {
+  content: "";
+  background-color: #fbe2dd;
+}
+
+#services .container .row .box:hover h1 a {
+  color: white;
+}
+
+#services .container .row .box:hover p {
+  color: white;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*# sourceMappingURL=style.css.map */

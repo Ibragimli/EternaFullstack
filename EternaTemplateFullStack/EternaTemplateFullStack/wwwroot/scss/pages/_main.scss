@@ -1,0 +1,134 @@
+#breadcrumbs {
+    margin-bottom: 50px;
+    background-color: #F7F7F7;
+    height: 109px;
+
+    .container {
+        .row {
+            ul {
+                margin-top: 30px;
+
+                li {
+                    color: #212529;
+                    margin-right: 10px;
+                }
+
+                .active {
+                    color: #E96B56;
+                }
+
+                p {
+                    margin-right: 10px;
+
+                }
+
+                margin-bottom: 10px;
+
+            }
+
+            h2 {
+                font-size: 28px;
+                font-weight: 700;
+                color: #545454;
+            }
+        }
+    }
+}
+
+#services {
+    margin-bottom: 50px;
+
+    .container {
+        .row {
+            .box {
+                margin-right: 20px;
+                margin-bottom: 20px;
+
+                transition: all 0.3s;
+                width: 416px;
+                height: 337.8px;
+                border: 1px solid #ededed;
+                ;
+                padding: 80px 20px;
+
+                .box-icon {
+                    position: relative;
+
+                    margin-bottom: 25px;
+                    display: inline-block;
+                    padding: 18px;
+                    background-color: #E96B56;
+                    border-radius: 5px;
+
+                    i {
+                        color: white;
+                        font-size: 28px;
+                    }
+                }
+
+                .box-icon::before {
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    position: absolute;
+                    top: -8px;
+                    left: -8px;
+                    background-color: #fbe2dd;
+                    border-radius: 5px;
+
+                }
+
+                h1 {
+                    margin-bottom: 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: #545454;
+                        font-weight: 700;
+                        font-size: 25px;
+                    }
+                }
+
+                p {
+                    line-height: 24px;
+                    font-size: 14px;
+                    color: #444;
+                }
+            }
+
+            .box:hover {
+                background-color: #E96B56;
+                z-index: 0;
+
+                .box-icon {
+                    background-color: #fff;
+
+                    i {
+
+                        color:#E96B56;
+                    }
+                }
+
+                .box-icon::before {
+                    content: "";
+                    background-color: #fbe2dd;
+                }
+
+                h1 {
+
+                    a {
+                        color: white;
+
+                    }
+                }
+
+                p {
+                    color: white;
+                }
+            }
+        }
+
+        .boxs {}
+    }
+}

@@ -1,0 +1,162 @@
+﻿@model HomeViewModel
+<main>
+    <section id="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <ul class="d-flex">
+                    <li class="active">Home</li>
+                    <p>/</p>
+                    <li>Services</li>
+                </ul>
+                <h2>
+                    Services
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row boxs ">
+                @foreach (var service in Model.Services)
+                {
+                    <div class="col-lg-4 col-md-6 box text-center">
+                        <div class="box-icon">
+                            @Html.Raw(service.Icon)
+                        </div>
+                        <h1>
+                            <a href="#">
+                                @service.Title
+                            </a>
+                        </h1>
+                        <p>@service.Desc</p>
+                    </div>
+                }
+                <!-- @*<div class="col-lg-4 col-md-6 box text-center">
+        <div class="box-icon">
+            <i class="fab fa-dribbble"></i>
+        </div>
+        <h1>
+            <a href="#">
+                Lorem Ipsum
+            </a>
+        </h1>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+    </div>
+    <div class="col-lg-4 col-md-6 box text-center">
+        <div class="box-icon">
+            <i class="fab fa-dribbble"></i>
+        </div>
+        <h1>
+            <a href="#">
+                Lorem Ipsum
+            </a>
+        </h1>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+    </div>
+    <div class="col-lg-4 col-md-6 box text-center">
+        <div class="box-icon">
+            <i class="fab fa-dribbble"></i>
+        </div>
+        <h1>
+            <a href="#">
+                Lorem Ipsum
+            </a>
+        </h1>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+    </div>
+    <div class="col-lg-4 col-md-6 box text-center">
+        <div class="box-icon">
+            <i class="fab fa-dribbble"></i>
+        </div>
+        <h1>
+            <a href="#">
+                Lorem Ipsum
+            </a>
+        </h1>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+    </div>
+    <div class="col-lg-4 col-md-6 box text-center">
+        <div class="box-icon">
+            <i class="fab fa-dribbble"></i>
+        </div>
+        <h1>
+            <a href="#">
+                Lorem Ipsum
+            </a>
+        </h1>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+
+    </div>*@-->
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- <section id="skills">
+        <div class="container">
+            <div class="row text-center">
+                <h1>Our Skills</h1>
+                <div class="ourSkillsLine"></div>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./Images/skills-img.jpg" width="150"  alt="skills-img">
+                </div>
+                <div class="col-lg-6">
+                    <h3>
+                        Voluptatem dignissimos provident quasi corporis voluptates
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt direna past reda
+                    </p>
+                    <div class="progressAll">
+                        <ul class="d-flex" style=" justify-content: space-between;">
+                            <li>Html</li>
+                            <li>100%</li>
+                        </ul>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progressAll">
+                        <ul class="d-flex" style=" justify-content: space-between;">
+                            <li>CSS</li>
+                            <li>75%</li>
+                        </ul>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progressAll">
+                        <ul class="d-flex" style=" justify-content: space-between;">
+                            <li>JAVASCRIPT</li>
+                            <li>50%</li>
+                        </ul>
+                        <div class="progress">
+                            <div class="progress-bar " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progressAll">
+                        <ul class="d-flex" style=" justify-content: space-between;">
+                            <li>PHOTOSHOP</li>
+                            <li>25%</li>
+                        </ul>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+</main>

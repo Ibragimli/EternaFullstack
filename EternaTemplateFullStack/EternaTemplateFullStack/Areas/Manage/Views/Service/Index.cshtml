@@ -1,0 +1,38 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Index";
+    int count = 0;
+}
+<a asp-action="create" asp-controller="service" class="btn btn-info float-right" >Create</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Icon</th>
+            <th scope="col">Title</th>
+            <th scope="col">Desc</th>
+            <th scope="col">Action</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var service in Model.Services)
+        {
+            count++;
+        <tr>
+            <th scope="row">@count</th>
+            <td>@service.Icon</td>
+            <td>@service.Title</td>
+            <td>@service.Desc</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@service.Id" class="btn btn-primary">Edit</a>
+                <a asp-action="Delete" asp-route-id="@service.Id" data-id="@service.Id" class="btn btn-danger deleteBtn">Delete</a>
+            </td>
+
+        </tr>
+        }
+    </tbody>
+</table>
+

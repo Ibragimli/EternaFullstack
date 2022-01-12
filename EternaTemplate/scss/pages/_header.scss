@@ -1,0 +1,93 @@
+#headerUp {
+    background-color: #545454;
+    height: 41px;
+
+    .container {
+        .row {
+            ul {
+                li {
+                    margin-top: 11px;
+
+                    i {
+                        cursor: pointer;
+                        margin-right: 15px;
+                        color: #E96B56;
+                        font-size: 14px;
+                        transition: all 0.4s ease;
+
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            margin-left: 5px;
+                            font-size: 15px;
+                            font-weight: 400;
+                            color: #fff;
+                        transition: all 0.4s ease;
+
+                        }
+
+
+                    }
+                    i:hover {
+                        transition: all 0.4s ease;
+
+                        p {
+    
+                            color: #E96B56;
+                        }
+                    }
+                }
+
+               
+
+
+                .iconLi {
+
+                    margin-top: 4px;
+
+                    ul {
+
+                        li {
+                            i {
+                                color: #bababa;
+                            }
+                            i:hover {
+                                    color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+#headerDown {
+    .container {
+        .row {
+            nav {
+                .navbar-brand {
+                    font-size: 26px;
+                    padding: 0 0 0 8px;
+                    margin: 11px 0;
+                    line-height: 1;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    font-family: "Poppins", sans-serif;
+                    border-left: 8px solid #e96b56;
+                    color: #545454;
+                }
+                #navbarNav{
+                    .navbar-nav{
+                        li{
+                            margin-left: 10px;
+                            .active{
+                                color: #E96B56;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
